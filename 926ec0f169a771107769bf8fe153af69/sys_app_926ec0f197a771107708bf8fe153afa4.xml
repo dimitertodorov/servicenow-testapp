@@ -19,10 +19,10 @@
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
-        <scope>x_981586_testapp</scope>
+        <scope>hax_1337_testapp</scope>
         <scoped_administration>false</scoped_administration>
         <short_description/>
-        <source>x_981586_testapp</source>
+        <source>hax_1337_testapp</source>
         <store_correlation_id/>
         <store_url/>
         <subscription_entitlement/>
@@ -30,7 +30,7 @@
         <sys_code/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-05 19:28:37</sys_created_on>
-        <sys_id>926ec0f197a771107708bf8fe153afa4</sys_id>
+        <sys_id>926ec0f169a771107769bf8fe153af69</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-05 19:28:37</sys_updated_on>
@@ -42,5 +42,5 @@
         <vendor_prefix/>
         <version>1.0.0</version>
     </sys_app>
-    <sys_translated_text action="delete_multiple" query="documentkey=926ec0f197a771107708bf8fe153afa4"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=926ec0f169a771107769bf8fe153af69"/>
 </record_update>
