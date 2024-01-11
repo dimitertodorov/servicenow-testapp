@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[jslog(555);]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>hax_1337_testapp_New Page.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+</j:jelly>]]></html>
+        <name>New Page</name>
+        <processing_script><![CDATA[gs.info(555);]]></processing_script>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 21:22:06</sys_created_on>
+        <sys_id>5148dedb972331107708bf8fe153af22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Page</sys_name>
+        <sys_package display_value="TestApp" source="hax_1337_testapp">926ec0f169a771107769bf8fe153af69</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TestApp">926ec0f169a771107769bf8fe153af69</sys_scope>
+        <sys_update_name>sys_ui_page_5148dedb972331107708bf8fe153af22</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 21:22:06</sys_updated_on>
+    </sys_ui_page>
+</record_update>
