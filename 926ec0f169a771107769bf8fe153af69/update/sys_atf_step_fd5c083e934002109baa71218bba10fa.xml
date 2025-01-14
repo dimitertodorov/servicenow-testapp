@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Run Server Side Validation Script</description>
+        <display_name>Run Server Side Script</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-02 18:25:53</sys_created_on>
+        <sys_id>fd5c083e934002109baa71218bba10fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Run Server Side Script</sys_name>
+        <sys_package display_value="TestApp" source="hax_1337_testapp">926ec0f169a771107769bf8fe153af69</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TestApp">926ec0f169a771107769bf8fe153af69</sys_scope>
+        <sys_update_name>sys_atf_step_fd5c083e934002109baa71218bba10fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-02 18:25:53</sys_updated_on>
+        <table/>
+        <test display_value="Sample Test">d226803a934002109baa71218bba1073</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=fd5c083e934002109baa71218bba10fa"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>fd5c083e934002109baa71218bba10fa</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-02 18:25:53</sys_created_on>
+        <sys_id>989c84fe934002109baa71218bba10b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-02 18:25:53</sys_updated_on>
+        <value>(function(outputs, steps, params, stepResult, assertEqual) {&#13;
+         var testAssertion = {&#13;
+           name: "my test assertion",&#13;
+           shouldbe: "2",&#13;
+           value: "3",&#13;
+     };&#13;
+     assertEqual(testAssertion); // throws Error, logs message to test step output&#13;
+&#13;
+})(outputs, steps, params, stepResult, assertEqual);</value>
+        <variable display_value="Test script">989d9e235324220002c6435723dc3484</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>fd5c083e934002109baa71218bba10fa</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-02 18:25:53</sys_created_on>
+        <sys_id>d09c84fe934002109baa71218bba10b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-02 18:25:53</sys_updated_on>
+        <value>3.1</value>
+        <variable display_value="Jasmine version">42f2564b73031300440211d8faf6a777</variable>
+    </sys_variable_value>
+</record_update>
