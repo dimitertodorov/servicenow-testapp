@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9d02987997a771107708bf8fe153af94" label="Test Table" max_length="40" name="hax_1337_testapp_test_table" type="collection">
+        <element label="HTMLField" max_length="8000" name="htmlfield" type="html"/>
+        <element label="ScriptField" max_length="8000" name="scriptfield" type="script"/>
+    </element>
+</database>
